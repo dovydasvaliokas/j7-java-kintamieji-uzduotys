@@ -6,6 +6,10 @@ Jūsų užduočiai if nėra būtinas, kadangi galima iš karto return naudoti. T
  */
 public class Uzduotis3 {
     public static void main(String[] args) {
+        System.out.println("arIseinaTrikampis(5, 6, 8) = " + arIseinaTrikampis(5, 6, 8));
+        System.out.println("arIseinaTrikampis(14, 25, 19) = " + arIseinaTrikampis(14, 25, 19));
+        System.out.println("arIseinaTrikampis(20, 20, -20) = " + arIseinaTrikampis(20, 20, -20));
+        System.out.println("arIseinaTrikampis(40, 2, 2) = " + arIseinaTrikampis(40, 2, 2));
 
     }
 
