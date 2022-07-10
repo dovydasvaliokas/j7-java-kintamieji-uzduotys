@@ -10,6 +10,13 @@ public class Uzduotis1 {
         // 3 punktas
         System.out.println("namoPerimetras(17.35, 18, 20.47, 16.37) = " + namoPerimetras(17.35, 18, 20.47, 16.37));
 
+        // 4 punktas
+        double siena1 = 2;
+        double siena2 = 4;
+        double siena3 = 4;
+        double siena4 = 4.1;
+        double namoSienuPerimetras = namoPerimetras(siena1, siena2, siena3, siena4);
+        System.out.println("namoSienuPerimetras = " + namoSienuPerimetras);
     }
 
 
