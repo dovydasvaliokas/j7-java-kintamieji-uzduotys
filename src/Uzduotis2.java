@@ -10,5 +10,14 @@ public class Uzduotis2 {
 
     }
 
-
+    /**
+     * Apskaičiuoja trikampio perimetrą
+     * @param a pirma kraštinė
+     * @param b antra kraštinė
+     * @param c trečia kraštinė
+     * @return double perimetrą
+     */
+    public static double trikampioPerimetras(double a, double b, double c) {
+        return a + b + c;
+    }
 }
