@@ -7,6 +7,9 @@ Užduotis 1
  */
 public class Uzduotis1 {
     public static void main(String[] args) {
+        // 3 punktas
+        System.out.println("namoPerimetras(17.35, 18, 20.47, 16.37) = " + namoPerimetras(17.35, 18, 20.47, 16.37));
+
     }
 
 
