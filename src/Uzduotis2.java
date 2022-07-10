@@ -20,4 +20,18 @@ public class Uzduotis2 {
     public static double trikampioPerimetras(double a, double b, double c) {
         return a + b + c;
     }
+
+    /**
+     * Apskaičiuoja trikampio plotą naudojant Herono formulę.
+     * Pirma funkcija apskaičiuoja perimetrą, naudojant Herono formulę (https://lt.wikibooks.org/wiki/Herono_formul%C4%97)
+     * Kadangi formulėje naudojamas pusperimetris, tai funkcijos viduje susikūriau papildomą kintamąjį, jog būtų paprasčiau.
+     * @param a pirma kraštinė
+     * @param b antra kraštinė
+     * @param c trečia kraštinė
+     * @return
+     */
+    public static double trikampioPlotas(double a, double b, double c) {
+        double p = trikampioPerimetras(a, b, c) / 2;
+        return Math.sqrt(p * (p - a) * (p - b) * (p - c));
+    }
 }
