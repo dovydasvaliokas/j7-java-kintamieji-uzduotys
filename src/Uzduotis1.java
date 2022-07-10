@@ -26,7 +26,7 @@ public class Uzduotis1 {
      * @param b antra siena
      * @param c trečia siena
      * @param d ketvirta siena
-     * @return
+     * @return visų sienų sumą (perimetrą)
      */
     public static double namoPerimetras(double a, double b, double c, double d) {
         return a + b + c + d;
