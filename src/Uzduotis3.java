@@ -8,4 +8,15 @@ public class Uzduotis3 {
     public static void main(String[] args) {
 
     }
+
+    /**
+     * Funkcija patikrina ar su duotomis kraštinėmis gali būti sudarytas trikampis.
+     * @param a pirma kraštinė
+     * @param b antra kraštinė
+     * @param c trečia kraštinė
+     * @return true, jei trikampis gali susidaryti ir false, jei negali.
+     */
+    public static boolean arIseinaTrikampis(double a, double b, double c) {
+        return a + b > c && a + c > b && b + c > a && a > 0 && b > 0 && c > 0;
+    }
 }
